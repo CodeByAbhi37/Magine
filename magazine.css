@@ -1,0 +1,288 @@
+*{
+    background-color:rgb(213, 210, 210);
+
+}
+
+
+
+.nav a:hover{color: black;
+    
+}
+.nav{bottom: 88px;
+    left: 582px;
+    background: transparent;
+   
+    position: relative;
+    display: flex;
+    
+}
+.nav a{
+    padding-right: 15px;
+    font-family: 'Roboto Mono', sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a{
+    color: gray;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.body a{
+    align-items: center;
+    /* text-align: center; */
+    text-decoration: none;
+    color: rgb(108, 106, 106);
+    font-style: inherit;
+   
+    }
+button{width:100px;
+   height: 40px;
+    position: relative;
+   
+ background-color: black;
+ color: white;  
+ font-weight: bolder;
+ position: relative;
+
+
+}
+button:hover{
+    color: black;
+    background-color: white;
+}
+.body input{height: 40px;
+position: relative;
+   
+    
+    
+    
+}
+.line{
+    left: 54px;
+    position: relative;
+    width: 12%;
+    height: 1px;
+   
+    background-color: black;
+}
+h3{background: transparent;
+ left:75px;
+    font-family: warnock-pro-display, sans-serif;
+    color:black;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 1px;
+    position: relative;
+   }
+.line-decoration.menu {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: auto;
+    width: auto;
+    
+}
+.over{
+
+    left: 513px;
+    bottom: 121px;
+    
+    position: relative;
+    width: 53%;
+    height: 1px;
+    background-color: black;
+   
+}
+.inbutton{
+    position: relative;
+    bottom: 133px;
+    left: 1200px;
+ }
+.search-button{
+    background-color:black;
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.input{border-style: none none solid;
+    border-width: 1px 1px 0.5px;
+    position: relative;
+    height:px ;
+   
+    background-color: transparent;
+}
+.title-text{
+    left: 583px;
+    bottom: 24px;
+    position: relative;
+    font-family: 'Roboto Mono', sans-serif;
+    color: black;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.num-text{
+    left: 357px;
+    bottom: 13px;
+    position: relative;
+    font-family: 'Roboto Mono', sans-serif;
+    color: black;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.heading{
+    left: 558px;
+    bottom: 91px;
+    position: relative;
+    color: black;
+    font-size: 100px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.news-article{
+   
+    font-family: monospace, sans-serif;
+    color: black;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.article{
+    padding-top: 11px;
+    padding-bottom: 10px;
+    padding-left: 12px; 
+    display: flex;
+    padding-top: 32px;
+    align-items: center;
+    background-color: rgb(224, 219, 219);
+    box-shadow: 0 24px 24px 0 rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+    width: 253px;
+    height: 39px;
+}
+ .news{bottom: 270px;
+    left: 1205px;
+    position: relative;
+}
+
+/* .body{
+    margin: 500px;
+} */
+ 
+ .pdate{
+    background:transparent ;
+ }
+ .book{
+    bottom: 274px;
+    left: 1212px;
+    position: relative;
+ }
+ .img{margin-bottom: 18px;
+    margin-right: 42px;
+    max-width: 14%;
+    vertical-align: middle;
+    display: inline-block;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.book-block{
+    display: flex;
+    
+    
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    text-decoration: none;
+}
+.art-title{
+    font-family: 'Roboto Mono', sans-serif;
+    color: #000;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+.art-date{
+    font-size: 12px;
+}
+.book-title{
+    margin-top: 1px;
+    font-family: 'Roboto Mono', sans-serif;
+    color: #000;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.book-author{
+    font-size: 12px;
+}
+.news a:hover{
+    background-color: white;
+}
+.mainimage{
+    left: 410px;
+    bottom: 819px;
+    position: relative;
+    width: 276px;
+    height: 357px;
+    margin-bottom: 88px;
+    margin-left: -9px;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.paraheading{
+    margin-top: 24px;
+    font-family: warnock-pro-display, sans-serif;
+    color: #000;
+    font-size: 37px;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 1px;
+    left: 730px;
+    background: transparent;
+    bottom: 1254px;
+    position: relative;
+
+}
+.para{left: 732px;
+    bottom: 1210px;
+    position: relative;
+   
+    width: 400px;
+
+}
+.mainbtn{
+    width: 254px;
+    left: 738px;
+    bottom: 1200px;
+    position: relative;
+}
+.body{
+    box-sizing: border-box;
+}
+   
+   
